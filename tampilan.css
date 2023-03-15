@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('login.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: lavender;
+	padding: 25px;
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+}
+input{
+	border-radius: 5px;
+}
+.gagal{
+    margin-left: 12%;
+   	display: inline-block;
+   	text-align: center;
+    font-family: "Courier New", Courier,monospace;
+    font-size: 20px;  
+    background-color:lavender;
+    opacity: 0.92;
+}
